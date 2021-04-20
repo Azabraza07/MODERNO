@@ -14,12 +14,11 @@ body {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto-regular", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: $color-text;
-    
 }
 
 a {
@@ -55,14 +54,14 @@ li {
 
 .title {
     color: $bg;
-    font-weight: 700;
+    @include fw700;
     text-align: center;
     font-size: 36px;
     line-height: 60px;
     margin-bottom: 30px;
 }
 
-.rate-star{
+.rate-star {
     display: inline-block;
     margin-right: 13px;
 }
